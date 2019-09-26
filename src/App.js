@@ -21,7 +21,10 @@ class App extends Component {
     const person = {
       ...this.state.persons[personIndex]
     };
+<<<<<<< HEAD
 
+=======
+>>>>>>> cd707325b9fc380592e2c1fdf29d8b359d36319a
     person.name = event.target.value;
     const persons = [...this.state.persons];
     persons[personIndex] = person;
